@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Thông Tin Friends Chơi LOL</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<style type="text/css">
+		#msg{
+		height: 400px; overflow: auto;
+		margin-top: 10px;
+	}
+	.msg{
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+		border-bottom: 1px dotted #ccc;
+	}
+	.msg a{
+		margin-right: 5px;
+	}
+	p small{
+		color: red;
+	}
+	#msg_err{
+		display: none;
+	}
+	#loader{
+		margin-left: 10px;
+		display: none;
+	}
+		
+		.menu ol {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+		.menu li {
+				  color: #f1f1f1;
+				  display: inline-block;
+				  width: 120px;
+				  height: 40px;
+				  line-height: 40px;
+				  margin-left: -5px;
+				}
+		.menu a {
+			  text-decoration: none;
+			  color: #fff;
+			  display: block;
+			}
+		.menu a:hover {
+		  background: #347A73;
+		  color: #00FFE6;
+		}
+		#title_2 {
+			font-size: 25px;
+			color: #F4E9E9; 
+			text-align: center;
+		}
+		#video_background {
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -1000;
+			overflow: hidden;
+			/*max-width: 100%;
+			max-height: 100%;*/
+			}
+		#opa {
+			opacity: 0.5;
+			text-align: center;
+		}
+	</style>
+	
+</head>
+<video id="video_background" preload="auto" autoplay="true" loop="loop" volume="50"> background cũ
+            
+            <source src="videos/video1.webm" type="video/webm"/>
+            <!-- <source src="videos/video2.webm" type="video/webm"/> -->
+                <!-- <source src="videos/video.mp4" type="video/mp4"/> -->
+ </video>
+<body>
+	<div id="title_1">
+		<h2 style="text-align: center; color: white;">Hế Lu! Website đc khởi tạo bởi <b> Khoa Nguyên</b></h2>
+	</div>
+	<div class="container">
+		<div id="title_2">
+			<span>Tên In-Game</span>
+		</div>
+		<div class="menu">
+			<ol>
+			<div>
+			<!-- <li><a href="index_1.php">Chat Trực Tuyến</a></li> -->
+				<li><a href="#">ÑTKhøå Žéµš</a></li>
+				<li><a href="#">woody fruity</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100011756257211&ref=br_rs" target="_blank">Lamdep45645</a></li>
+				<li><a href="https://www.facebook.com/sheng.jia.374" target="_blank">Virruss</a></li>
+			</div>
+			</ol>
+		</div>
+		<div id="opa">
+			<img src="videos/Untitled.png" width="780px" height="420px">
+		</div>
+	</div>
+	<!-- <div class="col-md-6 col-md-offset-3">
+<div id="msg" class="well">
+</div>
+<div class="alert alert-danger" id="msg_err">Have an error, please try again!</div>
+<p><input type="text" id="name" class="form-control" placeholder="Name"></p>
+<p><textarea name="messge" id="message" rows="4" class="form-control" placeholder="Message"></textarea></p>
+<p><input type="submit" class="btn btn-primary" id="send" value="Send"><img src="img/ajax-loader.gif" id="loader" width="16" height="16" alt=""></p>
+</div> -->
+</body>
+</html>
